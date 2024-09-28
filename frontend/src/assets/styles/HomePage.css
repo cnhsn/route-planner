@@ -1,0 +1,41 @@
+/* frontend/src/assets/styles/HomePage.css */
+
+.home-page {
+    padding: 20px;
+  }
+  
+  .planner-section,
+  .map-section,
+  .info-section {
+    margin-bottom: 20px;
+  }
+  
+  .planner-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .map-section {
+    height: 500px;
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
